@@ -6,7 +6,7 @@ function WhatGPT3() {
   return (
     <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
       <div className="gpt3__whatgpt3-feature">
-        <Feature />
+        <Feature title="What is GPT-3" />
       </div>
       <div className="gpt3__whatgpt3-heading">
         <h1 className="gradient__text">
@@ -15,9 +15,21 @@ function WhatGPT3() {
         <p>Explore the library</p>
       </div>
       <div className="gpt3__whatgpt3-container">
-        <Feature />
-        <Feature />
-        <Feature />
+        <Feature
+          title="Chatbots"
+          text="For a moment, let’s go back in time before SPAs existed: In the past, websites and web applications
+were rendered from the server."
+        />
+        <Feature
+          title="knowledgebase"
+          text="For a moment, let’s go back in time before SPAs existed: In the past, websites and web applications
+were rendered from the server."
+        />
+        <Feature
+          title="education"
+          text="For a moment, let’s go back in time before SPAs existed: In the past, websites and web applications
+were rendered from the server."
+        />
       </div>
     </div>
   );
