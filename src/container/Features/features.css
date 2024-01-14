@@ -1,3 +1,12 @@
 .gradient__text{
     color:var(--gradient__text)
 }
+
+.gradient__text p {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
